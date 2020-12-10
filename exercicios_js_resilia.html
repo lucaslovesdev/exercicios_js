@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+
+<script>
+	
+	function pulaLinha() {
+
+		document.write("<br>");	
+		document.write("<br>");	
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+
+	var inpNumero1 = prompt("Entre com o 1º número");
+	var inpNumero2 = prompt("Entre com o 2º número");
+	var nomeUser = prompt("Por favor, informe seu nome");
+	
+	var dobro = inpNumero1 * 2;
+	var metade = inpNumero2 / 2;
+	var nome = nomeUser;
+
+	mostra("O dobro do primeiro número que você digitou é " + dobro);
+	mostra("A metade do segundo número que você digitou é " + metade);
+	mostra("O nome de usuário informado foi " + nome);
+
+</script>
